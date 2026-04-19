@@ -14,13 +14,13 @@ Mục tiêu của dự án là giải quyết bài toán dự báo doanh thu (Sa
 | **Lê Tự Phong** | Member | Khoa học dữ liệu | Trường ĐH Khoa học tự nhiên, ĐHQG-HCM |
 
 ## 📁 Cấu trúc thư mục
-Repository được cấu trúc có chủ đích để mô tả quy trình thực hiện dự án[cite: 322]:
+Repository được cấu trúc có chủ đích để mô tả quy trình thực hiện dự án:
 
 ```text
-├── dataset/               # Chứa 15 file CSV dữ liệu thô (KHÔNG push lên GitHub) [cite: 20]
+├── dataset/               # Chứa 15 file CSV dữ liệu thô (KHÔNG push lên GitHub)
 ├── notebooks/             # Thư mục chứa Jupyter Notebooks
-│   ├── 1.0-EDA.ipynb      # Phần 2: Trực quan hoá và phân tích dữ liệu
-│   └── 2.0-Modeling.ipynb # Phần 3: Thử nghiệm mô hình dự báo doanh thu
+│   ├── 2.0-EDA.ipynb      # Phần 2: Trực quan hoá và phân tích dữ liệu
+│   └── 3.0-Modeling.ipynb # Phần 3: Thử nghiệm mô hình dự báo doanh thu
 ├── src/                   # Source code chính xử lý pipeline
 │   ├── data_prep.py       # Script tiền xử lý và kết nối dữ liệu
 │   └── model_train.py     # Pipeline huấn luyện và dự báo chính thức
