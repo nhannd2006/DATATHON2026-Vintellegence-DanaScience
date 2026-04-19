@@ -1,1 +1,1 @@
-# DATATHON2026_Vintellegence_DanaScience
+# DATATHON2026-Vintellegence-DanaScience
