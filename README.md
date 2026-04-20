@@ -37,20 +37,7 @@ Xây dựng một hệ thống dự báo doanh thu theo ngày với độ chính
 ## 📁 Cấu trúc thư mục
 
 ```text
-├── dataset/               # Chứa 15 file CSV dữ liệu thô (KHÔNG push lên GitHub)
-├── notebooks/             # Thư mục chứa Jupyter Notebooks
-│   ├── 2.0-EDA.ipynb      # Phân tích khám phá, trực quan hóa dữ liệu (Phần 2)
-│   └── 3.0-Modeling.ipynb # Thử nghiệm mô hình dự báo doanh thu (Phần 3)
-├── src/                   # Source code chính xử lý pipeline
-│   ├── data_prep.py       # Script làm sạch, kết nối dữ liệu và Feature Engineering
-│   └── model_train.py     # Pipeline huấn luyện, đánh giá và dự báo chính thức
-├── report/                # Thư mục chứa báo cáo kỹ thuật 
-│   └── main.tex           # Mã nguồn báo cáo LaTeX (Template NeurIPS)
-├── submissions/           # Lưu trữ kết quả dự báo
-│   └── submission.csv     # File nộp chính thức trên nền tảng Kaggle
-├── .gitignore             # Loại bỏ folder dataset/ và các file rác sinh ra khi chạy code
-├── requirements.txt       # Danh sách thư viện Python cần thiết
-└── README.md              # Tài liệu hướng dẫn này
+[... Cập nhật sau ...]
 ```
 
 ---
