@@ -2,8 +2,6 @@
 # 1. FILE DỮ LIỆU
 # ==========================================
 # Bỏ qua toàn bộ dữ liệu thô (Bắt buộc để không đẩy file CSV nặng lên GitHub)
-dataset/
-*.csv
 
 # Bỏ qua các file submission tạm thời, chỉ giữ lại file nộp cuối cùng
 # submissions/*
