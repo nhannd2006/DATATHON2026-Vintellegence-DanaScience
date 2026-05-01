@@ -63,11 +63,7 @@ pip install -r requirements.txt
 ### 3. Chạy Pipeline tự động
 Chạy lần lượt các lệnh sau trong Terminal để tạo file dự báo từ đầu:
 ```bash
-# Bước 1: Tiền xử lý, merge bảng và tạo đặc trưng (Features)
-python src/data_prep.py
 
-# Bước 2: Huấn luyện mô hình và xuất file submission.csv
-python src/model_train.py
 ```
 *(Mô hình đã được set cố định `random_seed` để đảm bảo kết quả đồng nhất).*
 
@@ -75,7 +71,7 @@ python src/model_train.py
 
 ## 📊 Phân tích dữ liệu (EDA & Insights)
 
-Chi tiết các biểu đồ và mã nguồn phân tích nằm tại: `notebooks/2.0-EDA.ipynb`. Chúng tôi phân tích dữ liệu qua 4 lăng kính:
+Chi tiết các biểu đồ và mã nguồn phân tích nằm tại: `Part2/part2.ipynb`. Chúng tôi phân tích dữ liệu qua 4 lăng kính:
 
 * **What happened? (Descriptive):** [... Cập nhật sau ...]
 * **Why did it happen? (Diagnostic):** [... Cập nhật sau ...]
@@ -85,36 +81,21 @@ Chi tiết các biểu đồ và mã nguồn phân tích nằm tại: `notebooks
 ---
 
 ## 🧠 Phương pháp Xây dựng Mô hình (Modeling Approach)
+[... Cập nhật sau ...]
 
-### Đặc trưng học máy (Feature Engineering)
-* **Time-series:** Trích xuất độ trễ (Lag features), trung bình trượt (Rolling windows), và tính mùa vụ (Seasonality).
-* **Nghiệp vụ:** Tích hợp dữ liệu về Chương trình khuyến mãi (Promotions), Lưu lượng truy cập (Web traffic), và Tồn kho (Inventory).
-* [... Cập nhật kĩ thuật xử lý khác ...]
-
-### Mô hình hóa (Models)
-Các mô hình được thử nghiệm: Linear Regression, XGBoost, LightGBM.
-* **Mô hình được chọn cuối cùng:** [... Cập nhật sau ...]
-* **Lý do chọn:** [... Cập nhật sau ...]
-
-### Đánh giá (Validation & Metrics)
-* **Validation:** Sử dụng phương pháp Time-series Cross Validation để ngăn chặn rò rỉ dữ liệu (No data leakage) ở mức tối đa.
-* **Metrics mục tiêu:** Tối ưu hóa dựa trên MAE, RMSE và tối đa hóa $R^2$.
 
 ---
 
 ## 🔍 Khả năng diễn giải (Explainability)
 
-Ứng dụng **SHAP (SHapley Additive exPlanations)** để phá vỡ "hộp đen" của mô hình học máy:
-* Xác định tầm quan trọng của các đặc trưng (Feature Importance).
-* Giải thích các yếu tố động lực (Drivers) ảnh hưởng mạnh nhất đến doanh thu ngày.
-* **Phát hiện chính từ SHAP:** [... Cập nhật sau ...]
+[... Cập nhật sau ...]
 
 ---
 
 ## 📄 Báo cáo Kỹ thuật
 
 * **Định dạng:** Tuân thủ cấu trúc của hội nghị NeurIPS.
-* **Mã nguồn:** `report/main.tex`
+* **Mã nguồn:** `Report/DanaScience_DATATHON2026.tex`
 * **File kết quả PDF:** Đã được đính kèm trong form nộp bài chính thức của BTC.
 
 ---
