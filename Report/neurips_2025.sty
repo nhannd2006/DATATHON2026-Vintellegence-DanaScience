@@ -311,7 +311,7 @@
     {\LARGE\bf \@title\par}
     \@bottomtitlebar
     \if@anonymous
-      \begin{tabular}[t]{c}\bf\rule{\z@}{24\p@}
+      \begin{tabular}[t]{c}\rule{\z@}{24\p@}
         Anonymous Author(s) \\
         Affiliation \\
         Address \\
@@ -320,13 +320,13 @@
     \else
       \def\And{%
         \end{tabular}\hfil\linebreak[0]\hfil%
-        \begin{tabular}[t]{c}\bf\rule{\z@}{24\p@}\ignorespaces%
+        \begin{tabular}[c]{c}\rule{\z@}{24\p@}\ignorespaces%
       }
       \def\AND{%
         \end{tabular}\hfil\linebreak[4]\hfil%
-        \begin{tabular}[t]{c}\bf\rule{\z@}{24\p@}\ignorespaces%
+        \begin{tabular}[c]{c}\rule{\z@}{24\p@}\ignorespaces%
       }
-      \begin{tabular}[t]{c}\bf\rule{\z@}{24\p@}\@author\end{tabular}%
+      \begin{tabular}[c]{c}\rule{\z@}{24\p@}\@author\end{tabular}%
     \fi
     \vskip 0.3in \@minus 0.1in
   }
