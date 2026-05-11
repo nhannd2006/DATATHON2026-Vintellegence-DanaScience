@@ -14,6 +14,8 @@
 | **Nguyễn Thành Bảo** | Member  | Công nghệ thông tin | ĐH Khoa học tự nhiên, ĐHQG-HCM |
 | **Đặng Thanh Huyền** | Member  | Khoa học dữ liệu    | ĐH Khoa học tự nhiên, ĐHQG-HCM |
 
+***Kết quả chung cuộc : Top 79/527 đội thi (Tổng điểm 82/100đ)***
+
 ---
 
 ## 🏆 Tổng quan về cuộc thi
